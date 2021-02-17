@@ -1,7 +1,7 @@
 /* Color Palettes
 - #01012b
 - #005678
-- #05d9e8
+- #05d9e8a
 - #d1f7ff
 - #ff2a6d
 - #C93370
@@ -71,6 +71,7 @@ body {
 #heading {
   font-size: 1.75rem;
   font-weight: 500;
+  text-align: justify;
 }
 
 #line {
@@ -132,16 +133,7 @@ body {
   top: 10px;
   left: 0;
   width: 100%;
-  height: 60px;
-}
-
-.topnav .topnav-centered ul {
-  list-style: none;
-  overflow: hidden;
-}
-
-.topnav .topnav-centered li {
-  float: left;
+  height: auto;
 }
 
 .topnav .topnav-centered a {
@@ -176,10 +168,10 @@ body {
   width: 70%;
   height: 650px;
   box-shadow: inset 0 2px 1px;
-  margin: 0 auto;
-  margin-top: 20px;
-  display: flex;
+  margin: auto;
+  margin-top: 40px;
   overflow: hidden;
+  padding: 40px;
 }
 
 .message-menu {
@@ -187,7 +179,7 @@ body {
   height: 100%;
   list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border-right: 1px #00ffff;
   margin: 0;
   padding: 0;
@@ -196,7 +188,7 @@ body {
 
 .message-menu li {
   float: left;
-  margin: 0;
+  margin: 1px;
   padding: 0.5em 1em;
   text-align: center;
 }
