@@ -14,7 +14,7 @@ function draw(time) {
     }
     drawIndex++;
   }
-  frameIndex += 3;
+  frameIndex += 4;
 }
 
 draw();
