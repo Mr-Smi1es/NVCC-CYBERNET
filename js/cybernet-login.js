@@ -1,6 +1,6 @@
 var textElement = document.querySelector(".content");
 
-var textContent = "Logging into NVCC Network...\nPlease Wait\n\n...\n\n\nUser: root\nPass: *************\n\n...\n\nAuthorization level...\nroot\n\n...\n\nAll Access...\nGRANTED\n\n...\n\n\nPatching NVCC NETWORK...........\nPatching Kernel...........\nPatching /home/%user..\n\n∞ All Access Mod Patched! ∞\n\nConnecting to swarm.....................\nOK!\n\nNew swarmlet registered.\n\n\nThanks for visiting NVCC CyberNet! Please Close Window.                            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n".split("");
+var textContent = "\nLogging into NVCC Network...\nPlease Wait\n\n...\n\n\nUser: root\nPass: *************\n\n...\n\nAuthorization level...\nroot\n\n...\n\nAll Access...\nGRANTED\n\n...\n\n\nPatching NVCC NETWORK...........\nPatching Kernel...........\nPatching /home/%user..\n\n∞ All Access Mod Patched! ∞\n\nConnecting to swarm.....................\nOK!\n\nNew swarmlet registered.\n\n\nThanks for visiting NVCC CyberNet! Please Close Window.                            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n".split("");
 
 var frameIndex = 0;
 var drawIndex = 0;  
@@ -14,7 +14,7 @@ function draw(time) {
     }
     drawIndex++;
   }
-  frameIndex += 4;
+  frameIndex += 1;
 }
 
 draw();
